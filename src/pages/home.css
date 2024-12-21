@@ -1,0 +1,334 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(43, 42, 42);
+    color: #333;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    color: white;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar .logo {
+    background-image: url('logo.png');
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('funni.jfif');
+    color: white;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero h1 span {
+    color: #e63946;
+  }
+  
+  .hero p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  .hero-buttons button {
+    margin: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    background-color: #5c5454;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .hero-buttons button:hover {
+    background-color: #1d1a1a;
+  }
+  
+  /* Products Section */
+  .products {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .product-card {
+    background: rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: right;
+  }
+  
+  .product-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+  }
+  
+  .product-card button {
+    padding: 0.7rem 1.2rem;
+    border: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    
+  }
+  
+  .product-card button:hover {
+    background-color: #757575;
+  }
+  
+  /* Promo Section */
+  .promo {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+  }
+  
+  .promo-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .promo-content img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .promo-content div {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .promo-content h2 {
+    color: #000000;
+  }
+  
+  .promo-content button {
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .promo-content button:hover {
+    background-color: #ffffff;
+  }
+
+  .home-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #2c2b2b;
+  }
+  
+/* Intel Section */
+.intel-section {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Ensures padding is inside the box */
+}
+
+.intel-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.intel-logo {
+  width: 60px;
+  margin-right: 15px;
+}
+
+.intel-header h2 {
+  font-size: 1.8rem;
+  color: #000000;
+  margin: 0; /* Remove default margin */
+}
+
+.intel-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intel-cpus {
+  width: 250px;
+  margin-right: 30px;
+}
+
+.intel-info {
+  max-width: 500px;
+}
+
+.why-intel {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.intel-info p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333; /* A slightly darker color for better readability */
+}
+
+/* ROG Section */
+.rog-section {
+  background-color: #000000;
+  color: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box; /* Ensures padding is inside the box */
+}
+
+.rog-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rog-logo {
+  width: 60px;
+  margin-right: 15px;
+}
+
+.rog-header h2 {
+  font-size: 1.8rem;
+  color: white;
+  margin: 0; /* Remove default margin */
+}
+
+.rog-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rog-products {
+  width: 250px;
+  margin-right: 30px;
+}
+
+.rog-info {
+  max-width: 500px;
+}
+
+.why-rog {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.rog-info p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.amd-ryzen-section {
+  background-color: #ffffff;  /* Same background color as Intel */
+  color: rgb(0, 0, 0);
+  padding: 30px; /* Same padding as Intel and ROG */
+  margin-bottom: 30px; /* Same margin bottom */
+  border-radius: 8px; /* Same border-radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Same box-shadow */
+}
+
+.amd-ryzen-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.amd-logo {
+  width: 60px;
+  margin-right: 15px;
+}
+
+.amd-ryzen-header h2 {
+  font-size: 1.8rem;
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.amd-ryzen-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.amd-ryzen-processors {
+  width: 250px;
+  margin-right: 30px;
+}
+
+.amd-ryzen-info {
+  max-width: 500px;
+}
+
+.why-amd-ryzen {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.amd-ryzen-info p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #000000;
+}

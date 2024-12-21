@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #1d1d1d, #3c3c3c);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    text-transform: uppercase;
+  }
+  
+  .MuiTextField-root {
+    background-color: #333;
+    border-radius: 5px;
+  }
+  
+  .MuiButton-root {
+    font-weight: bold;
+  }
+  
+  .MuiTypography-root {
+    color: #ccc;
+  }
+  
+  .MuiButton-text {
+    text-decoration: underline;
+  }

@@ -1,0 +1,56 @@
+/* Basic Styling for About Page */
+.about-page {
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .category-nav {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .pc-parts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .pc-parts select {
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .selected-parts {
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .selected-parts ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .selected-parts li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #fdfdfd;
+  }
+  
+  button.MuiButton-contained {
+    width: 200px;
+    margin: 10px 0;
+  }
+  
